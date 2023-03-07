@@ -162,12 +162,4 @@
         android:layout_toRightOf="@id/bocchiequal"
         android:layout_toEndOf="@id/bocchiequal"/>
 
-    <ImageView
-        android:id="@+id/bocchiImage"
-        android:layout_width="308dp"
-        android:layout_height="194dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="13dp"
-        app:srcCompat="@mipmap/bocchiTheImage_foreground" />
-
 </RelativeLayout>
