@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bocchi7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentSta="true"/>
+
+
+    <Button
+        android:id="@+id/bocchi8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8"
+        android:layout_marginLeft="13dp"
+        android:layout_alignBaseline="@id/bocchi7"
+        android:layout_toRightOf="@id/bocchi7"
+        android:layout_toEndOf="@id/bocchi7"/>
+
+    <Button
+        android:id="@+id/bocchi9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9"
+        android:layout_marginLeft="13dp"
+        android:layout_alignBaseline="@id/bocchi8"
+        android:layout_toRightOf="@id/bocchi8"
+        android:layout_toEndOf="@id/bocchi8"/>
+
+    <Button
+        android:id="@+id/bocchidivide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:layout_marginLeft="13dp"
+        android:layout_alignBaseline="@id/bocchi9"
+        android:layout_toRightOf="@id/bocchi9"
+        android:layout_toEndOf="@id/bocchi9"/>
+
+    <Button
+    android:id="@+id/bocchi4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="4"
+    android:layout_marginLeft="13dp"
+    android:layout_below="@id/bocchi7"/>
+
+    <Button
+        android:id="@+id/bocchi5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:layout_marginLeft="13dp"
+        android:layout_alignBaseline="@id/bocchi4"
+        android:layout_toRightOf="@id/bocchi4"
+        android:layout_toEndOf="@id/bocchi4"/>
+
+    <Button
+        android:id="@+id/bocchi6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:layout_marginLeft="13dp"
+        android:layout_alignBaseline="@id/bocchi5"
+        android:layout_toRightOf="@id/bocchi5"
+        android:layout_toEndOf="@id/bocchi5"/>
+
+    <Button
+        android:id="@+id/bocchimultiply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="x"
+        android:layout_marginLeft="13dp"
+        android:layout_alignBaseline="@id/bocchi6"
+        android:layout_toRightOf="@id/bocchi6"
+        android:layout_toEndOf="@id/bocchi6"/>
+
+    <Button
+        android:id="@+id/bocchi1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:layout_marginLeft="13dp"
+        android:layout_below="@id/bocchi4"/>
+
+    <Button
+        android:id="@+id/bocchi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:layout_marginLeft="13dp"
+        android:layout_alignBaseline="@id/bocchi1"
+        android:layout_toRightOf="@id/bocchi1"
+        android:layout_toEndOf="@id/bocchi1"/>
+
+    <Button
+        android:id="@+id/bocchi3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:layout_marginLeft="13dp"
+        android:layout_alignBaseline="@id/bocchi2"
+        android:layout_toRightOf="@id/bocchi2"
+        android:layout_toEndOf="@id/bocchi2"/>
+
+    <Button
+        android:id="@+id/bocchiminus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:layout_marginLeft="13dp"
+        android:layout_alignBaseline="@id/bocchi3"
+        android:layout_toRightOf="@id/bocchi3"
+        android:layout_toEndOf="@id/bocchi3"/>
+
+    <Button
+        android:id="@+id/bocchi0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_marginLeft="13dp"
+        android:layout_below="@id/bocchi1"/>
+
+    <Button
+        android:id="@+id/bocchiperiod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="."
+        android:layout_marginLeft="13dp"
+        android:layout_alignBaseline="@id/bocchi0"
+        android:layout_toRightOf="@id/bocchi0"
+        android:layout_toEndOf="@id/bocchi0"/>
+
+    <Button
+        android:id="@+id/bocchiequal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:layout_marginLeft="13dp"
+        android:layout_alignBaseline="@id/bocchiperiod"
+        android:layout_toRightOf="@id/bocchiperiod"
+        android:layout_toEndOf="@id/bocchiperiod"/>
+
+    <Button
+        android:id="@+id/bocchiplus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:layout_marginLeft="13dp"
+        android:layout_alignBaseline="@id/bocchiequal"
+        android:layout_toRightOf="@id/bocchiequal"
+        android:layout_toEndOf="@id/bocchiequal"/>
+
+    <ImageView
+        android:id="@+id/bocchiImage"
+        android:layout_width="308dp"
+        android:layout_height="194dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        app:srcCompat="@mipmap/bocchiTheImage_foreground" />
+
+</RelativeLayout>
